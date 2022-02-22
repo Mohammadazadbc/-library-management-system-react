@@ -1,0 +1,121 @@
+.onebook{
+    width: 100%;
+    height: 100%;
+}
+
+.oneWrapper{
+    width: 80%;
+    height: 80vh;
+    background-color: rgb(231, 237, 240);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 2rem;
+    border-radius: 13px;
+}
+.oneleft{
+    flex: 0.7;
+}
+.oneleft img{
+    width: 100%;
+    height: 350px;
+}
+
+.oneleft div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.oneleft div .add {
+    background-color: #FF9D38;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 1rem;  
+    color: white;  
+}
+.oneleft div .add:hover{
+    background-color: #ca6b0c;
+    width: 95%;
+}
+.bookBtn{
+    border: none;
+    padding: 3px 10px;
+    border-radius: 3px; 
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: black;
+    width: 95%;
+
+}
+.bookBtn img{
+    width: 25px;
+    height: 25px;
+   
+}
+
+.oneright{
+    flex: 3;
+    
+}
+.rightTop{
+    position: relative;
+    left: 15px;
+    width: 90%;
+}
+
+.rightBottom{
+    position: relative;
+    left: 15px;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.review{
+    width: 80%;
+    height: auto;
+    background-color: rgb(231, 237, 240);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 2rem;
+    border-radius: 13px;
+    flex-direction: column;
+}
+.reviewTop{
+    width: 100%;
+}
+.reviewTop h5, p{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.reviewBottom{
+    width: 100%;
+
+}
+.reviewBottom textarea{
+    width: 90%;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    left: 3px;
+    padding-left: 5px;
+    padding-top: 5px;
+    outline: none;
+}
+.reviewBottom button{
+    border: none;
+    background-color: #ca6b0c;
+    padding: 14px 5px;
+    position: relative;
+    left: 7px;
+    top: -19px;
+    border-radius: 5px;
+}
+.review h4{
+    position: relative;
+    left: 40%;
+}

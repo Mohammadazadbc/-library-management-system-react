@@ -1,0 +1,23 @@
+    const addComment = (id)=>{
+        const newComment = {
+            comment: userComment,
+            book_id:id
+        }
+        fetch(`http://127.0.0.1:8000/api/comment/${id}`, {
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify(newComment)
+        })
+        .then(resp=>resp.json())
+        .then((data)=>{
+            if(data){
+                console.log("data added");
+            }
+            else{
+                console.log("something went wrong")
+            }
+        })
+      
+    }

@@ -1,0 +1,56 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: url("https://wallpapermemory.com/uploads/808/library-background-hd-4k-74768.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginWrapper{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}
+
+.loginTop{
+    flex: 1;
+    
+}
+.loginlogo{
+    width: 100px;
+}
+.loginCenter{
+    flex: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+.loginCenter input{
+    padding: 3px;
+    border: 1px solid rgb(226, 207, 207);
+    outline: none;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+.loginCenter button{
+    border: none;
+    margin: 1rem 0;
+}
+.loginBottom{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginBottom button{
+    border: solid 1px rgb(218, 203, 203);
+    padding: 5px 15px;
+    border-radius: 2px;
+}

@@ -1,0 +1,8 @@
+.registerWrapper{
+    width: 350px;
+    height: 460px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}

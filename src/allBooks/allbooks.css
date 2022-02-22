@@ -1,0 +1,44 @@
+
+.popBooks{
+    position: relative;
+    margin-top: 1rem;
+    width: 90%;
+    -webkit-box-shadow: 6px 5px 16px 3px rgba(0,0,0,0.78); 
+    box-shadow: 6px 5px 16px 3px rgba(0,0,0,0.78);
+    padding: 10px 0 10px 10px;
+    left: 4rem;
+    border-radius: 3px;
+ 
+}
+.popBooks img{
+    width: 23%; 
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.booksList{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(218, 186, 186);
+    margin-top: 5px;
+}
+.booksList img{
+    flex: 1;
+ 
+}
+.booksList div{
+    flex: 3;
+    padding: 10px;
+    padding-right: 25px;
+    position: relative;
+}
+.booksList div button{
+    border: none;
+    border-radius: 3px;
+    color: lightblue;
+    position: relative;
+    left: 30%;
+    top: 20px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
